@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        color: blue;
+    }
+    legend{
+        background-color: rgba(223, 3, 3, 0.549);
+        color: white;
+    }
+    fieldset{
+        background-color: rgb(226, 227, 228);
+    }
+</style>
+<body>
+    <center><img src="./logo.jpg" height="80 width=80"></center>
+    <center><h1>TELANGANA STATE ROAD TRANSPORT CORPERATION</h1></center>
+    <center><h1 style="color: black;">GENERAL BUS APPLICATION</h1></center>
+    <form action="./success.html">
+        <fieldset>
+            <legend>1.Student details</legend>
+            <label for="">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" autofocus required> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="">Father's / Guardian's name</label>
+            <input type="text" required> <br> <br>
+            <label for="">Date of Birth</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" required> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+            <label for="">Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="">Male</label>
+            <input type="radio" name="gender">
+            <label for="">Female</label>
+            <input type="radio" name="gender"><br><br>
+            <label for="">Aadhar No</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" patter="[0-9]" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="">Mobile No</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" > <br> <br>
+            <label for="">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="">Is Employee children</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="">Yes</label>
+            <input type="radio" name="option">
+            <label for="">No</label>
+            <input type="radio" name="option"> <br><br>
+            <label for="">Photo</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="file" accept=".jpg" required>  
+            </fieldset>   
+            
+            <br> <br>
+            <fieldset>
+                <legend>2.Residential Address Details</legend>
+                <label for="">District</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select >
+                    <option value="---Select---" disabled selected>---Select---</option>
+                    <option value="Dis">Medchal</option>
+                    <option value="Dis">Hyderabad</option>
+                    <option value="Dis">Ranga Reddy</option>
+                </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="">Mandal</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select >
+                    <option value="---Select---" disabled selected>---Select---</option>
+                    <option value="Dis">Medchal</option>
+                    <option value="Dis">Hyderabad</option>
+                    <option value="Dis">Ranga Reddy</option>
+                </select> <br><br>
+                <label for="">Village</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select >
+                    <option value="---Select---" disabled selected>---Select---</option>
+                    <option value="Dis">Medchal</option>
+                    <option value="Dis">Hyderabad</option>
+                    <option value="Dis">Ranga Reddy</option>
+                </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="">Address</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <textarea></textarea> <br><br>
+                <label for="">Postal Code</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" required>
+            </fieldset>
+            <br> <br>
+            <fieldset>
+                <legend>3.School Details</legend>
+                <label for="">District</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select >
+                    <option value="---Select---" disabled selected>---Select---</option>
+                    <option value="Dis">Medchal</option>
+                    <option value="Dis">Hyderabad</option>
+                    <option value="Dis">Ranga Reddy</option>
+                </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="">Mandal</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select >
+                    <option value="---Select---" disabled selected>---Select---</option>
+                    <option value="Dis">Medchal</option>
+                    <option value="Dis">Hyderabad</option>
+                    <option value="Dis">Ranga Reddy</option>
+                </select> <br><br>
+                <label for="">School Name</label>&nbsp;&nbsp;&nbsp;
+                <select >
+                    <option value="---Select---" disabled selected>---Select---</option>
+                    <option value="Dis">New little lilly high school</option>
+                    <option value="Dis">St.claret high school</option>
+                    <option value="Dis">ZPHS school</option>
+                    <option value="Dis">Narayana school</option>
+                </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="">Class</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select >
+                    <option value="---Select---" disabled selected>---Select---</option>
+                    <option value="Dis">1st</option>
+                    <option value="Dis">2nd</option>
+                    <option value="Dis">3rd</option>
+                    <option value="Dis">4th</option>
+                    <option value="Dis">5th</option>
+                    <option value="Dis">6th</option>
+                    <option value="Dis">7th</option>
+                    <option value="Dis">8th</option>
+                    <option value="Dis">9th</option>
+                    <option value="Dis">10th</option>
+                </select> <br><br>
+                <label for="">Admission No</label>&nbsp;&nbsp;
+                <input type="text" required> <br> <br>
+                <label for="">School Address</label>
+                <textarea></textarea>
+            </fieldset>
+            <br> <br>
+            <fieldset>
+                <legend>4.Mode of payment</legend>
+                <label for="">Payment Mode</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select>
+                    <option value="mode" disabled selected>---select---</option>
+                    <option value="mode">Online</option>
+                    <option value="mode">Offline</option>
+                </select> <br> <br>
+                <label for="">Pass Delivery Mode</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select>
+                    <option value="mode" disabled selected>---select---</option>
+                    <option value="mode">post</option>
+                    <option value="mode">Home</option>
+                </select>
+            </fieldset>
+            <center><input type="submit" value="Register" style="background-color:pink; color: black; padding: 10px 20px; "></center>
+    </form>
+</body>
+</html>
